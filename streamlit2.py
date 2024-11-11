@@ -15,7 +15,7 @@ st.write("This application provides an interactive analysis of traffic data.")
 @st.cache
 def load_data():
     # Replace 'your_data.csv' with your actual data file if needed
-    data = pd.read_csv('your_data.csv')  # update with the path to your dataset
+    data = pd.read_csv('traffic_sao_paulo.csv')  # update with the path to your dataset
     return data
 
 data = load_data()
